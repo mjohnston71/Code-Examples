@@ -1,0 +1,6 @@
+﻿  MainPage.xaml.cpp
+  Generating code
+  Finished generating code
+     Creating library C:\Users\Matthew\Desktop\Code Examples\C++\GUI programs - XAML and C++\circlesAndSpheres\Release\circlesAndSpheres.Windows\circlesAndSpheres.Windows.lib and object C:\Users\Matthew\Desktop\Code Examples\C++\GUI programs - XAML and C++\circlesAndSpheres\Release\circlesAndSpheres.Windows\circlesAndSpheres.Windows.exp
+XamlTypeInfo.g.obj : error LNK2001: unresolved external symbol "private: void __cdecl circlesAndSpheres::MainPage::textBox_TextChanged(class Platform::Object ^,class Windows::UI::Xaml::Controls::TextChangedEventArgs ^)" (?textBox_TextChanged@MainPage@circlesAndSpheres@@A$AAAXP$AAVObject@Platform@@P$AAVTextChangedEventArgs@Controls@Xaml@UI@Windows@@@Z)
+C:\Users\Matthew\Desktop\Code Examples\C++\GUI programs - XAML and C++\circlesAndSpheres\Release\circlesAndSpheres.Windows\circlesAndSpheres.Windows.exe : fatal error LNK1120: 1 unresolved externals

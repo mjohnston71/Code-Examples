@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "circlesAndSpheres", "circlesAndSpheres", "{51DE4A47-E9CF-4EAD-9E8D-E0F4C307A833}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "circlesAndSpheres.Shared", "circlesAndSpheres\circlesAndSpheres.Shared\circlesAndSpheres.Shared.vcxitems", "{0E1D5B2A-EE1A-4D06-BB9C-810842AEAEA8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "circlesAndSpheres.Windows", "circlesAndSpheres\circlesAndSpheres.Windows\circlesAndSpheres.Windows.vcxproj", "{098FB9F7-978C-4854-8616-02564B8C8FF3}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		circlesAndSpheres\circlesAndSpheres.Shared\circlesAndSpheres.Shared.vcxitems*{098fb9f7-978c-4854-8616-02564b8c8ff3}*SharedItemsImports = 4
+		circlesAndSpheres\circlesAndSpheres.Shared\circlesAndSpheres.Shared.vcxitems*{0e1d5b2a-ee1a-4d06-bb9c-810842aeaea8}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|ARM.ActiveCfg = Debug|ARM
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|ARM.Build.0 = Debug|ARM
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|ARM.Deploy.0 = Debug|ARM
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|x64.ActiveCfg = Debug|x64
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|x64.Build.0 = Debug|x64
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|x64.Deploy.0 = Debug|x64
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|x86.ActiveCfg = Debug|Win32
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|x86.Build.0 = Debug|Win32
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Debug|x86.Deploy.0 = Debug|Win32
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|ARM.ActiveCfg = Release|ARM
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|ARM.Build.0 = Release|ARM
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|ARM.Deploy.0 = Release|ARM
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|x64.ActiveCfg = Release|x64
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|x64.Build.0 = Release|x64
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|x64.Deploy.0 = Release|x64
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|x86.ActiveCfg = Release|Win32
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|x86.Build.0 = Release|Win32
+		{098FB9F7-978C-4854-8616-02564B8C8FF3}.Release|x86.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E1D5B2A-EE1A-4D06-BB9C-810842AEAEA8} = {51DE4A47-E9CF-4EAD-9E8D-E0F4C307A833}
+		{098FB9F7-978C-4854-8616-02564B8C8FF3} = {51DE4A47-E9CF-4EAD-9E8D-E0F4C307A833}
+	EndGlobalSection
+EndGlobal

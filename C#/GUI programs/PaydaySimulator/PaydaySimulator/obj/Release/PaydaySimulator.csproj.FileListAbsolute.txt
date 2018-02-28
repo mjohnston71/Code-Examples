@@ -1,0 +1,9 @@
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\bin\Release\PaydaySimulator.exe.config
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\bin\Release\PaydaySimulator.exe
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\bin\Release\PaydaySimulator.pdb
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\obj\Release\PaydaySimulator.csprojResolveAssemblyReference.cache
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\obj\Release\PaydaySimulator.PaydayWindow.resources
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\obj\Release\PaydaySimulator.Properties.Resources.resources
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\obj\Release\PaydaySimulator.csproj.GenerateResource.Cache
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\obj\Release\PaydaySimulator.exe
+C:\Users\Matthew\Desktop\PaydaySimulator\PaydaySimulator\obj\Release\PaydaySimulator.pdb
