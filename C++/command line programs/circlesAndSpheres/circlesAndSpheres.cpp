@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
 	//gives a nice message in the console
 	cout << "This program calculates the area of a circle and the surface area of a sphere given a radius.\nType \"x\" to close the program.";
 
-	//loops the program until close condition ("x" is entered) is met
+	//loops the program until close condition ("x" is entered) is met - demonstration of a "sentry" loop
 	while (input != "x") 
 	{
 		input = getInput("\n\nEnter radius: ");
