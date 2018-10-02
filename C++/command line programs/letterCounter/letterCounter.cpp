@@ -1,3 +1,4 @@
+// This program counts letters in a given file
 #include <stdio.h>
 #include <iostream>
 #include <fstream>
@@ -63,6 +64,7 @@ int main(int argc, char * argv[])
 		fileLine = ""; wholeFile = "";
 		currentLetterCount = 0; letterCount = 0;
 
+		// .c_str() is a required conversion
 		inFile.open(input.c_str());
 
 		// reads the whole file into wholeFile
