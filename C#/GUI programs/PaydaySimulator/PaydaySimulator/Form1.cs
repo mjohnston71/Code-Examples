@@ -13,7 +13,7 @@ namespace PaydaySimulator
     public partial class PaydayWindow : Form
     {
         /// <summary>
-        /// holds hourly rate i nfo
+        /// holds hourly rate info
         /// </summary>
         double hourlyRate;
 
@@ -23,12 +23,12 @@ namespace PaydaySimulator
         double totalMade = 0;
 
         /// <summary>
-        /// tracks fractions of a penny
+        /// tracks fractions of a penny to a reasonable extent
         /// </summary>
         double pennyFraction = 0;
 
         /// <summary>
-        /// stores the "pennies per second" rate
+        /// stores the "pennies per second" rate - used for progress bar speed
         /// </summary>
         double secondRate;
 
@@ -47,7 +47,8 @@ namespace PaydaySimulator
         private void updateTick(object sender, EventArgs e)
         {
             // totals up what was made since the last tick
-            totalMade += hourlyRate / 60 / 60 * 1000 / updateTimer.Interval;
+            // divided by 60 twice for minutes then seconds, multiplied by 1000 and then divided by updateTimer.Interval to deal with milliseconds
+            totalMade += hourlyRate / 60 / 60 * 1000 / updateTimer.Interval; 
 
             // the portion left over is a fraction of a penny
             pennyFraction = totalMade % 1;
